@@ -10,8 +10,8 @@
 ## compas custom repository for IBOIS robot control
 - [x] create repository "COMPAS_ABB6700_IRBT" -> https://github.com/ibois-epfl/COMPAS_ABB6700_IRBT/blob/main/docker-compose.yml
 - [x] create file docker-compose.yml
-- [x] install XLaunch
-- [x] compose docker, now the move it should open:
+- [x] install XLaunch, by download from 
+- [x] compose docker, now the move it should open: https://sourceforge.net/projects/vcxsrv/
 ![image](https://user-images.githubusercontent.com/18013985/191273672-6817796f-10f3-4169-b961-9572e6b9f511.png)
 
 
