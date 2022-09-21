@@ -12,11 +12,6 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 - [ ] submit a pull request to ROS-Industrial to add the new model to the upstream abb_experimental repository.
 
 
-
-
-
-Regarding the question of updating meshes with Moveit running, unfortunately, this is not possible. It is one of the reasons we don't put the end effector in the URDF, because MoveIt does not allow to reload the active robot model, so, changing anything in the URDF of the meshes requires a full restart.
-
 ## compas custom repository for IBOIS robot control
 - [x] create repository "COMPAS_ABB6700_IRBT" -> https://github.com/ibois-epfl/COMPAS_ABB6700_IRBT/blob/main/docker-compose.yml
 - [x] create file docker-compose.yml
