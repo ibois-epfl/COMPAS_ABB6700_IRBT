@@ -38,3 +38,10 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 ![image](https://user-images.githubusercontent.com/18013985/191273672-6817796f-10f3-4169-b961-9572e6b9f511.png)
 - [ ] create a new support package for the linear axis + the robot mounted on it
 
+
+## Errors: 
+- [ ] piston axis is wrong:
+![image](https://user-images.githubusercontent.com/18013985/192549082-d218920c-ae60-4efd-a00e-5164ba056915.png)
+
+
+
