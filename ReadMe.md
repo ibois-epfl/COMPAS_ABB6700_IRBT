@@ -19,7 +19,8 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 - **end effectors** - skip
 - **passive joints** - skip
 - **author information** - write name and email
-- **configuration files** - "/root/catkin_ws/src/abb_experimental/abb_irb6700_175_305_moveit_config" , then click generate package and manually place outside the ----- [x] Add the 3 lines in the docker.yml
+- **configuration files** - "/root/catkin_ws/src/abb_experimental/abb_irb6700_175_305_moveit_config" , then click generate package and manually place outside the 
+- [x] Add the 3 lines in the docker.yml
 ![image](https://user-images.githubusercontent.com/18013985/192545130-f119ad45-5630-49b8-8178-0c5dd059a082.png)
 ![image](https://user-images.githubusercontent.com/18013985/192538639-b5f09ea0-ba8c-4dfe-8b3c-94aa807c12ab.png)
 - [x] check if the package is running in compas_fab, mainly you need to check if meshes are correctly rotating:
