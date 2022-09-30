@@ -28,6 +28,9 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 
 - [ ] cross check results of the IK solver against the values of RobotStudio (this could be done programmatically, using compas_fab to calculate IK solutions from frames and then using compas_rrc to control a RobotStudio virtual controller and verify that both are a match).
 - [ ] submit a pull request to ROS-Industrial to add the new model to the upstream abb_experimental repository.
+
+## Linear track
+- [ ] create a new urdf in vs code and moveit: abb_irbt6004_670_support https://mega.nz/file/Mt4zTKib#t0tS83_pZn_NbqoEml8fIOIvU5RuVC8fI88ff9qEpUg
 - [ ] the mesh of the track has to load
 - [ ] axis 3 is way up
 
