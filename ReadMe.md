@@ -28,6 +28,8 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 
 - [ ] cross check results of the IK solver against the values of RobotStudio (this could be done programmatically, using compas_fab to calculate IK solutions from frames and then using compas_rrc to control a RobotStudio virtual controller and verify that both are a match).
 - [ ] submit a pull request to ROS-Industrial to add the new model to the upstream abb_experimental repository.
+- [ ] the mesh of the track has to load
+- [ ] axis 3 is way up
 
 
 ## compas custom repository for IBOIS robot control
