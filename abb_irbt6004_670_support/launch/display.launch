@@ -1,8 +1,8 @@
 <launch>
 
-  <arg name="model" default="$(find abb_linear_axis)/urdf/linear_axis_two_robots.urdf"/>
+  <arg name="model" default="$(find abb_irbt6004_670_support)/urdf/abb_irb6700_175_305_ibois.urdf"/>
   <arg name="gui" default="true" />
-  <arg name="rvizconfig" default="$(find abb_linear_axis)/rviz/urdf.rviz" />
+  <arg name="rvizconfig" default="$(find abb_irbt6004_670_support)/rviz/urdf.rviz" />
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
   <param name="use_gui" value="$(arg gui)"/>

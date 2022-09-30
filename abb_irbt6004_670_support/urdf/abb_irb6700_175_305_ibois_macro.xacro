@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-  <xacro:macro name="abb_linear_axis">
+  <xacro:macro name="abb_irb6700_175_305_ibois">
   <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
-  <xacro:include filename="$(find abb_irb4600_40_255)/urdf/abb_irb4600_40_255_macro.xacro"/>
-  <xacro:include filename="$(find abb_linear_axis)/urdf/linear_axis.xacro"/>
+  <xacro:include filename="$(find abb_irb6700_support)/urdf/irb6700_175_305_macro.xacro"/>
+  <xacro:include filename="$(find abb_irbt6004_670_support)/urdf/abb_irbt6004_670.xacro"/>
 
   <link name="world" />
 
@@ -13,15 +13,15 @@
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
 
-  <xacro:linear_axis/>
+  <xacro:abb_irbt6004_670 />
   
   <joint name="abb_joint" type="fixed">
-    <parent link="cart"/>
+    <parent link="pedestal"/>
     <child  link="base_link"/>
     <origin xyz="0 0 0 " rpy="0 0 0 "/>
     <dynamics damping="0.2" friction="0" />
   </joint>
 
-  <xacro:abb_irb4600_40_255 prefix=""/>
+  <xacro:abb_irb6700_175_305 prefix=""/>
   </xacro:macro>
 </robot>
