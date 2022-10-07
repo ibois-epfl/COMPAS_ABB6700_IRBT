@@ -26,13 +26,12 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 - [x] check if the package is running in compas_fab, mainly you need to check if meshes are correctly rotating:
 ![image](https://user-images.githubusercontent.com/18013985/192539156-75078ff9-8c96-4450-b0e9-093a2f1fe3b2.png)
 
-- [ ] cross check results of the IK solver against the values of RobotStudio (this could be done programmatically, using compas_fab to calculate IK solutions from frames and then using compas_rrc to control a RobotStudio virtual controller and verify that both are a match).
+- [x] cross check results of the IK solver against the values of RobotStudio (this could be done programmatically, using compas_fab to calculate IK solutions from frames and then using compas_rrc to control a RobotStudio virtual controller and verify that both are a match).
 - [ ] submit a pull request to ROS-Industrial to add the new model to the upstream abb_experimental repository.
 
 ## Linear track
-- [ ] create a new urdf in vs code and moveit: abb_irbt6004_670_support https://mega.nz/file/Mt4zTKib#t0tS83_pZn_NbqoEml8fIOIvU5RuVC8fI88ff9qEpUg
-- [ ] the mesh of the track has to load
-- [ ] axis 3 is way up
+- [x] create a new urdf in vs code and moveit: abb_irbt6004_670_support https://mega.nz/file/Mt4zTKib#t0tS83_pZn_NbqoEml8fIOIvU5RuVC8fI88ff9qEpUg
+- [x] the mesh of the track has to load
 
 
 ## compas custom repository for IBOIS robot control
@@ -41,8 +40,10 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 - [x] install XLaunch, by download from 
 - [x] compose docker, now the move it should open: https://sourceforge.net/projects/vcxsrv/
 ![image](https://user-images.githubusercontent.com/18013985/191273672-6817796f-10f3-4169-b961-9572e6b9f511.png)
-- [ ] create a new support package for the linear axis + the robot mounted on it
+- [x] create a new support package for the linear axis + the robot mounted on it
 
+## robot studio
+- [ ] setup a meeting with Fleischmann Philippe <fleischmann@arch.ethz.ch and put cc Gonzalo Casas for the robot studio
 
 ## Errors: 
 - [ ] piston axis is wrong:
