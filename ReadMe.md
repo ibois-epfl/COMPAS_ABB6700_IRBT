@@ -41,6 +41,7 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 - [x] compose docker, now the move it should open: https://sourceforge.net/projects/vcxsrv/
 ![image](https://user-images.githubusercontent.com/18013985/191273672-6817796f-10f3-4169-b961-9572e6b9f511.png)
 - [x] create a new support package for the linear axis + the robot mounted on it
+- [ ] reduce mesh size for the track and the robot
 
 ## robot studio
 - [ ] setup a meeting with Fleischmann Philippe <fleischmann@arch.ethz.ch and put cc Gonzalo Casas for the robot studio
