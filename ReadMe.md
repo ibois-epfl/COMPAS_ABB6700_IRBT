@@ -31,8 +31,10 @@ https://ethz.zoom.us/rec/play/6ApGjsRP12yb3BqKNvhnIPZzc8klT_8e712Jtmwb9DWv4jj8IU
 
 ## Linear track
 - [x] create a new urdf in vs code and moveit: abb_irbt6004_670_support https://mega.nz/file/Mt4zTKib#t0tS83_pZn_NbqoEml8fIOIvU5RuVC8fI88ff9qEpUg
-- [x] the mesh of the track has to load
+- [x] the mesh of the track has to load https://mega.nz/file/81AR1Sqb#LEguFOR5uCo0Km2iQMUvbzSgqRVYURTAgCoPUEsJdTc
 
+## Two robots + track
+- [x] setting up urdf https://mega.nz/file/U9xwmLga#bCua4jk9ZDl7RtvXa-PZxWJCKiTj2U3EFbhztIZ_5J4
 
 ## compas custom repository for IBOIS robot control
 - [x] create repository "COMPAS_ABB6700_IRBT" -> https://github.com/ibois-epfl/COMPAS_ABB6700_IRBT/blob/main/docker-compose.yml
